@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    display: flex;
+    background-color: #2C3E50;
+    justify-content: space-between;
+    padding: 10px;
+    height: 70px;
+    box-sizing: border-box;
+
+}
+
+.header>div {
+    display: flex;
+    align-items: center;
+}
+
+
+img {
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.search_bar {
+    width: 60%;
+}
+
+
+
+label {
+    padding-left: 5px;
+}
+
+button {
+    background-color: #2C3E50;
+    margin-right: 10px;
+    border: 0;
+}
+
+.searchBar {
+    width: 80%;
+    padding: 10px;
+}
+
+
+/* .fa-magnifying-glass {
+    font-size: 2.3rem;
+    color: white !important;
+} */
+
+/* .searchIcon {
+    border: none;
+    outline: none;
+
+} */
+
+.logo {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+.dropbtn {
+    background-color: #2C3E50;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: #EAF2F8;
+    background-color: #2C3E50;
+    min-width: 160px;
+    box-shadow: 2px 2px 10px #59a4de;
+    z-index: 1;
+}
+
+
+/* Design for profile btn to show right behavior */
+.rightDrop {
+    right: 0;
+    margin: 0 10px 0 0;
+
+}
+
+
+/* dropDown Links settings to make it attarctive */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover over different menu items to show behavior */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #2C3E50;
+}
+
+/* Hover over grop down to show The hidden block of menu items */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hover over dropDown Div the Btn Color Changes to show that we are within menu */
+.dropdown:hover .dropbtn {
+    background-color: #5b7b9b;
+}
+
+
+
+
+
+
+/* Grid View to show div item contains phones data */
+.girdView {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*  */
+.itemView {
+    width: 15rem;
+    height: 20rem;
+    box-shadow: 2px 2px 10px rgb(12, 12, 12);
+    margin: 10px;
+    background-color: #3498DB;
+    color: #303048;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.itemView:hover {
+    box-shadow: 3px 3px 10px #3498DB;
+    background-color: #2d587a;
+    color: #f1f1f1;
+}
+
+.itemView img {
+    display: block;
+    width: 10rem;
+    height: 14rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.itemDes {
+    height: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.itemPrice {
+    height: 2rem;
+    font-size: 2rem;
+    margin: 0 0 5px 10px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.itemView .soldOut {
+
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #2C3E50;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+
+}
+
+.footer img.logoImg {
+    width: 20rem;
+    height: 10rem;
+    /* display: block; */
+    
+}
+
+
+.footer ul {
+    list-style: none;
+    color: #EAF2F8;
+    display: inline-block;
+
+}
+
+.footer ul li a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #EAF2F8;
+}
+
+.footer ul li {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/* .footer h1 {
+    font-size: 2rem;
+    display: inline;
+    color: #EAF2F8;
+    font-family: cursive;
+    margin-bottom: 10px;
+
+} */
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+ .socialLinks button {
+    border-radius: 50%;
+    /* height: 20%; */
+    width: 100%; 
+    margin-left: 10px;
+} 
+
+/* .socialLinks img {
+    width: 80%;
+    height: 80%;
+
+} */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+

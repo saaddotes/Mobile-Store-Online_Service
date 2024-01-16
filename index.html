@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new_style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="Images/menu.png" alt=""></button>
+                <div class="dropdown-content">
+                    <a href="#">Mobile Phones</a>
+                    <a href="#">Tablets</a>
+                    <a href="#">Smart Watches</a>
+                    <a href="#">Laptop & Computers</a>
+                    <a href="#">Video Games</a>
+                    <a href="#">Cameras</a>
+                </div>
+            </div>
+            <img class="logo" src="Images/logo-color.png" alt="shaikh">
+        </div>
+
+
+
+        <div class="search_bar">
+            <input class="searchBar" type="search" placeholder="Seach Here" id="search" oninput="searchItems()">
+            <label class="searchIcon" for="search"><img src="Images/search-interface-symbol.png" alt=""></label>
+        </div>
+        <div class="cart_menu">
+            <div class="dropdown rightDrop">
+                <button class="dropbtn">
+                    <img src="Images/profile.png" alt=""></button>
+                <div class="dropdown-content rightDrop">
+                    <a href="#">Sign In</a>
+                    <a href="#">LogIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="girdView">
+
+        <div class="itemView">
+            <img class="soldOut" src="Images/sold.png" alt="">
+            <div><img src="Images/IMG-20240115-WA0040.jpg" alt=""></div>
+            <div class="itemDes">Iphone 12 Pro Max Gold 256 Approved Health 81</div>
+            <div class="itemPrice">Rs 225000</div>
+
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/samsung_a20.jpg" alt=""></div>
+            <div class="itemDes">Samsung A20🔥🔥
+                red edition 🌹🌹
+                fresh phone
+                3/32 🔥🔥
+                fast processor
+                super amoled display
+                with box 📦 cable
+            </div>
+            <div class="itemPrice">Rs 17000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/iphone_se.jpg" alt=""></div>
+            <div class="itemDes">iphone Se 🔥🔥
+                fresh phone
+                64GB 🔥🔥
+                non pta jv
+                health 94 ✅
+                sealed water 💦 pack
+                brand New peice
+                waranty till Sep 25 2024
+                with box 📦
+            </div>
+            <div class="itemPrice">Rs 33000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/iphone-11.jpg" alt=""></div>
+            <div class="itemDes">iphone 11 pro max 🔥🔥
+                silver ⚪⚪
+                brand New phone
+                256GB ✅✅
+                non pta fu
+                health 85 ✅✅
+                sealed water 💦 pack
+            </div>
+            <div class="itemPrice">Rs 105000</div>
+        </div>
+
+        <div class="itemView">
+            <img class="soldOut" src="Images/sold.png" alt="">
+            <div><img src="Images/iphone_12proMax.jpg" alt=""></div>
+            <div class="itemDes">iphone 12 pro🔥🔥
+                Gold ❤❤
+                brand New phone
+                128GB 🔥
+                health 81 ✅✅
+                fresh phone 📱
+                minro air pas
+                with box 📦 cable
+
+            </div>
+            <div class="itemPrice">Rs 180000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/iphone X.jpg" alt=""></div>
+            <div class="itemDes">iphone X 🔥🔥
+                grey ☑
+                brand New phone
+                64GB ❤
+                non pta
+                health 91 ✅
+                minor air pas ❤
+                1</div>
+            <div class="itemPrice">Rs 50000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/iphone xs.jpg" alt=""></div>
+            <div class="itemDes">iphone Xs 🔥🔥
+                Gold ❤❤
+                brand New condition 🔥
+                64GB 🔥
+                non pta FU
+                health 84 ✅✅
+                full kancha peice
+            </div>
+            <div class="itemPrice">Rs 52000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/TechnoSpark.jpg" alt=""></div>
+            <div class="itemDes">Tecno spark 10C 🔥
+                grey ☑
+                brand New condition
+                4/128 ❤❤
+                fast processor
+                full waranty
+                just box opened
+                with box 📦 charger
+            </div>
+            <div class="itemPrice">Rs 25000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/redmi note 10.jpg" alt=""></div>
+            <div class="itemDes">Mi redmi Note 10 pro 🔥❤
+                grey ☑☑
+                brand New phone
+                6/128 ❤❤
+                fast processor
+                snapdragon
+                fast charger turbo 33W original
+                with box
+            </div>
+            <div class="itemPrice">Rs 35000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/redmi note 10 white.jpg" alt=""></div>
+            <div class="itemDes">Redmi Note 10 🔥
+                brand New phone
+                4/128 ❤❤
+                fast processor
+                snapdragon ❤
+                fast charger 🔌 33W turbo
+                with box 📦
+            </div>
+            <div class="itemPrice">Rs 32000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/oppo a12.jpg" alt=""></div>
+            <div class="itemDes">Oppo A12 🔥🔥
+                fresh phone
+                4/64 ❤❤
+                fast processor
+                all ok phone
+                with box 📦
+
+            </div>
+            <div class="itemPrice">Rs 18500</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/IMG-20240115-WA0040.jpg" alt=""></div>
+            <div class="itemDes">Iphone 12 Pro Max Gold 256 Approved Health 81</div>
+            <div class="itemPrice">Rs 225000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/samsung_a20.jpg" alt=""></div>
+            <div class="itemDes">Samsung A20🔥🔥
+                red edition 🌹🌹
+                fresh phone
+                3/32 🔥🔥
+                fast processor
+                super amoled display
+                with box 📦 cable
+            </div>
+            <div class="itemPrice">Rs 17000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/iphone_se.jpg" alt=""></div>
+            <div class="itemDes">iphone Se 🔥🔥
+                fresh phone
+                64GB 🔥🔥
+                non pta jv
+                health 94 ✅
+                sealed water 💦 pack
+                brand New peice
+                waranty till Sep 25 2024
+                with box 📦
+            </div>
+            <div class="itemPrice">Rs 33000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/iphone-11.jpg" alt=""></div>
+            <div class="itemDes">iphone 11 pro max 🔥🔥
+                silver ⚪⚪
+                brand New phone
+                256GB ✅✅
+                non pta fu
+                health 85 ✅✅
+                sealed water 💦 pack
+            </div>
+            <div class="itemPrice">Rs 105000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/iphone_12proMax.jpg" alt=""></div>
+            <div class="itemDes">iphone 12 pro🔥🔥
+                Gold ❤❤
+                brand New phone
+                128GB 🔥
+                health 81 ✅✅
+                fresh phone 📱
+                minro air pas
+                with box 📦 cable
+
+            </div>
+            <div class="itemPrice">Rs 180000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/iphone_13.jpg" alt=""></div>
+            <div class="itemDes">iphone 13 🔥🔥
+                red edition 🌹🌹
+                brand New phone
+                128GB ❤
+                non pta jv
+                health 88 ✅🔌
+                sealed water 💦 pack
+                Full kaancha peice
+            </div>
+            <div class="itemPrice">Rs 112000</div>
+        </div>
+
+        <div class="itemView">
+            <img class="soldOut" src="Images/sold.png" alt="">
+            <div><img src="Images/iphone X.jpg" alt=""></div>
+            <div class="itemDes">iphone X 🔥🔥
+                grey ☑
+                brand New phone
+                64GB ❤
+                non pta
+                health 91 ✅
+                minor air pas ❤
+                1</div>
+            <div class="itemPrice">Rs 50000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/iphone xs.jpg" alt=""></div>
+            <div class="itemDes">iphone Xs 🔥🔥
+                Gold ❤❤
+                brand New condition 🔥
+                64GB 🔥
+                non pta FU
+                health 84 ✅✅
+                full kancha peice
+            </div>
+            <div class="itemPrice">Rs 52000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/TechnoSpark.jpg" alt=""></div>
+            <div class="itemDes">Tecno spark 10C 🔥
+                grey ☑
+                brand New condition
+                4/128 ❤❤
+                fast processor
+                full waranty
+                just box opened
+                with box 📦 charger
+            </div>
+            <div class="itemPrice">Rs 25000</div>
+        </div>
+
+        <div class="itemView">
+            <img class="soldOut" src="Images/sold.png" alt="">
+            <div><img src="Images/redmi note 10.jpg" alt=""></div>
+            <div class="itemDes">Mi redmi Note 10 pro 🔥❤
+                grey ☑☑
+                brand New phone
+                6/128 ❤❤
+                fast processor
+                snapdragon
+                fast charger turbo 33W original
+                with box
+            </div>
+            <div class="itemPrice">Rs 35000</div>
+        </div>
+
+        <div class="itemView">
+            <div><img src="Images/redmi note 10 white.jpg" alt=""></div>
+            <div class="itemDes">Redmi Note 10 🔥
+                brand New phone
+                4/128 ❤❤
+                fast processor
+                snapdragon ❤
+                fast charger 🔌 33W turbo
+                with box 📦
+            </div>
+            <div class="itemPrice">Rs 32000</div>
+        </div>
+
+        <div class="itemView">
+            <img class="soldOut" src="Images/sold.png" alt="">
+            <div><img src="Images/oppo a12.jpg" alt=""></div>
+            <div class="itemDes">Oppo A12 🔥🔥
+                fresh phone
+                4/64 ❤❤
+                fast processor
+                all ok phone
+                with box 📦
+
+            </div>
+            <div class="itemPrice">Rs 18500</div>
+        </div>
+
+    </div>
+
+    <script>
+        function searchItems() {
+            // Get the input value
+            var searchInput = document.querySelector('.searchBar').value.toLowerCase();
+
+            // Get all item views
+            var itemViews = document.querySelectorAll('.itemView');
+
+            // Loop through item views
+            itemViews.forEach(function (item) {
+                // Get the text content of each item
+                var itemText = item.textContent.toLowerCase();
+
+                // Check if the search input is present in the item text
+                if (itemText.includes(searchInput)) {
+                    // Show the item if it matches the search criteria
+                    item.style.display = 'inline-block';
+                } else {
+                    // Hide the item if it doesn't match the search criteria
+                    item.style.display = 'none';
+                }
+            });
+        }
+    </script>
+
+    <div class="footer">
+        <div>
+            <img class="logoImg" src="Images/logo-color.png" alt="">
+        </div>
+        <div>
+            <div>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact US</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div style="display:block;">
+
+                <div style="font-size: 2rem; font-family: cursive; color: azure; margin: 10px;">Our Social Media Links
+                </div>
+                <br>
+
+                <div class="socialLinks">
+                    <button><img src="Images/facebook-app-symbol.png" alt=""></button>
+                    <button><img src="Images/instagram.png" alt=""></button>
+                    <button><img src="Images/whatsapp.png" alt=""></button>
+                    <button><img src="Images/tik-tok.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
