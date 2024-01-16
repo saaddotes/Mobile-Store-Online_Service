@@ -186,7 +186,6 @@ button {
 .itemView .ordernow {
     position: absolute;
     margin: 85px 0 0px 25px;
-    opacity: 0.5;
     display: none;
 }
 
@@ -197,22 +196,13 @@ button {
 
 .itemView:hover .ordernow {
     display: block;
-    opacity: 1;
 }
 
-
-.itemView:hover .itemView div {
-    opacity: 0.5;
-}
 
 .ordernow a {
     display: block;
-    /* margin: 12px 16px; */
 }
 
-.ordernow a:hover {
-    cursor: pointer;
-}
 
 
 
