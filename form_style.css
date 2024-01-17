@@ -1,0 +1,87 @@
+body {
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+}
+
+div.boxform {
+    margin-top: 150px;
+    align-self: center;
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+}
+
+div.formManager {
+    /* margin-top: 150px;
+    align-self: center;
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black; */
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* label {
+    display: block;
+    margin: 10px;
+    color: blue;
+
+} */
+
+input[type="text"] , input[type="password"] {
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid navy;
+    width: 60%;
+    padding: 0 10px;
+    height: 1.7rem;
+}
+
+input[type="submit"] {
+    margin-top: 100px;
+    width: 90%;
+    height: 1.8rem;
+    background-color: navy;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(52, 108, 227);
+    box-shadow: 3px 3px 10px blue;
+}
+
+.switch {
+    display: flex;
+    justify-content: space-around;
+}
+
+.switch div {
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    
+}
