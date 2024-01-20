@@ -12,76 +12,107 @@ div.boxform {
     background-color: aliceblue;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+    /* padding: 20px; Added padding for better visual balance */
     
 
 }
 
-div.formManager {
-    /* margin-top: 150px;
-    align-self: center;
-    width: 500px;
-    height: 500px;
-    background-color: aliceblue;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px black; */
-    display: flex;
-    justify-content: center;
-}
 
-form {
-    width: 90%;
+div.formManager {
     display: flex;
+    position: absolute;
+    /* background-color: red; */
+    left: 60px;
+    width: 90%;
+    visibility: hidden; 
     align-items: center;
     flex-direction: column;
     justify-content: center;
 
 }
 
-/* label {
-    display: block;
-    margin: 10px;
-    color: blue;
-
-} */
 
 input[type="text"] , input[type="password"] {
     border-radius: 3px;
     outline: none;
     border: 1px solid navy;
-    width: 60%;
+    width: 30%;
     padding: 0 10px;
     height: 1.7rem;
+    margin-top: 25px;
+}
+
+input:hover {
+    box-shadow: 3px 3px 10px navy;
+
+
 }
 
 input[type="submit"] {
-    margin-top: 100px;
+    margin-top: 300px;
+    margin-left: 20px;
     width: 90%;
-    height: 1.8rem;
+    height: 2rem;
     background-color: navy;
     color: whitesmoke;
     font-family: cursive;
     font-size: 1rem;
     border-radius: 5px;
-    border: 1px solid rgb(52, 108, 227);
-    box-shadow: 3px 3px 10px blue;
+    border: 1px solid black;
+}
+
+input[type="submit"]:hover {
+    background-color: #4747d7;
+
 }
 
 .switch {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
 
-.switch div {
+button {
     text-align: center;
-    width: 49%;
-    display: inline-block;
-    margin-left: 10px;
+    width: 240px;
+    height: 40px;
     background-color: navy;
-    display: flex;
-    justify-content: center;
-    
+    color: aliceblue;
+    border-radius: 5px;
 }
+
+
+
+.switch button:hover {
+    background-color: #4747d7;
+
+}
+
+.signin:hover .formManager {
+    visibility: visible;
+}
+
+.signup:hover .formManager {
+    visibility: visible;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+button.signup:active {
+    background-color: yellow;
+}
+
+
+.formManager:hover .signup> button {
+    background-color: red;
+}
+
+/* input:focus::placeholder{
+    display: ;
+} */
+
+

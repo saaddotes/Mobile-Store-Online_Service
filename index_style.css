@@ -103,16 +103,19 @@ button {
 .dropdown-content a:hover {
     background-color: #f1f1f1;
     color: #2C3E50;
+    transition: width 2s linear 1s;
 }
 
 /* Hover over grop down to show The hidden block of menu items */
 .dropdown:hover .dropdown-content {
     display: block;
+
 }
 
 /* Hover over dropDown Div the Btn Color Changes to show that we are within menu */
 .dropdown:hover .dropbtn {
     background-color: #5b7b9b;
+
 }
 
 

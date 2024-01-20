@@ -10,24 +10,28 @@
 
 <body>
     <div class="boxform">
-        <div class="switch">
-            <div>
-                Sign In
+        <form  method="get">
+            <div class="switch">
+                <div class="signin"><button><a href="">Sign In</a></button>
+                    <div class="formManager">
+                        <input type="text" placeholder="Username Name" name="name">
+                        <input type="password" placeholder="Password" name="password">
+                    </div>
+                </div>
+                <div class="signup">
+                    <button ><a href="">Sign Up</a></button>
+                    <div class="formManager">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                        <input type="text" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Confirm Password">
+                    </div>
+                </div>
             </div>
-            <div>
-                Log In
-            </div>
-        </div>
-        <div class="formManager">
-            <form action="">
+            <input type="submit">
+        </form>
 
-                <input type="text" placeholder="Username Name">
-                <br>
-                <input type="password" placeholder="Password">
-                <input type="submit">
-
-            </form>
-        </div>
     </div>
 </body>
 
